@@ -59,7 +59,10 @@
 | 2-1 图的分类 | [无代码] |
 | 2-2 图的基本概念 | [无代码] |
 | 2-3 图的基本表示：邻接矩阵 | [Java](02-Graph-Basics/03-Adjacency-Matrix/src/) |
-| 2-4 更多图的方法 | [Java] |
+| 2-4 更多图的方法 | [Java](02-Graph-Basics/04-Other-Methods-in-Graph/src/) |
+| 2-5 图的基本表示：邻接表 | [无代码] |
+| 2-6 邻接表的实现| [Java](02-Graph-Basics/06-Adjacency-List/src/) |
+| 2-7 邻接表的问题和改进 | [Java](02-Graph-Basics/06-Adjacency-Set/src/) |
 | | |
 
 课程正在更新中，敬请期待：）
