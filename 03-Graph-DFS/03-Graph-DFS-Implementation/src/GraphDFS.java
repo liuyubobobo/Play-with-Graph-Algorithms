@@ -27,7 +27,7 @@ public class GraphDFS {
         return order;
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Graph g = new Graph("g.txt");
         GraphDFS graphDFS = new GraphDFS(g);

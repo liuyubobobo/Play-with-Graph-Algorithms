@@ -77,15 +77,15 @@ public class Graph {
 
         sb.append(String.format("V = %d, E = %d\n", V, E));
         for(int v = 0; v < V; v ++){
-            sb.append(v + " : " );
+            sb.append(String.format("%d : ", v));
             for(int w : adj[v])
-                sb.append(w + " ");
+                sb.append(String.format("%d ", w));
             sb.append('\n');
         }
         return sb.toString();
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Graph g = new Graph("g.txt");
         System.out.print(g);

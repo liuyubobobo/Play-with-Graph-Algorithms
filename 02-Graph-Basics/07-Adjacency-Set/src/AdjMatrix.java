@@ -8,9 +8,9 @@ public class AdjMatrix {
     private int E;
     private int[][] adj;
 
-    public AdjMatrix(String pathStr){
+    public AdjMatrix(String filename){
 
-        File file = new File(pathStr);
+        File file = new File(filename);
 
         try(Scanner scanner = new Scanner(file)){
 
@@ -82,13 +82,13 @@ public class AdjMatrix {
         sb.append(String.format("V = %d, E = %d\n", V, E));
         for(int i = 0; i < V; i ++){
             for(int j = 0; j < V; j ++)
-                sb.append(adj[i][j] + " ");
+                sb.append(String.format("%d ", adj[i][j]));
             sb.append('\n');
         }
         return sb.toString();
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         AdjMatrix adjMatrix = new AdjMatrix("g.txt");
         System.out.print(adjMatrix);
