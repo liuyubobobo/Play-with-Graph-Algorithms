@@ -26,6 +26,7 @@ public class AdjMatrix {
                 validateVertex(a);
                 int b = scanner.nextInt();
                 validateVertex(b);
+                if(a == b) throw new IllegalArgumentException("Self Loop Detected!");
                 adj[a][b] = 1;
                 adj[b][a] = 1;
             }

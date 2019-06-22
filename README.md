@@ -69,6 +69,10 @@
 | 3-2 图的深度优先遍历 | [无代码] |
 | 3-3 实现图的深度优先遍历 | [Java](03-Graph-DFS/Graph-DFS-Implementation/src/) |
 | 3-4 图的深度优先遍历的改进 | [Java](03-Graph-DFS/Graph-DFS-Improvement/src/) |
+| 3-5 [文字]邻接矩阵的深度优先遍历 | [见文字内部] |
+| 3-6 [文字]深度优先遍历的非递归实现 | [见文字内部] |
+| 3-7 深度优先遍历的应用 | [无代码] |
+| **第四章 图的深度优先遍历的应用** | [章节Java源码](04-Graph-DFS-Applications/)  |
 | | |
 
 

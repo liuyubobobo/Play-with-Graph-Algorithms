@@ -29,6 +29,7 @@ public class AdjSet {
                 validateVertex(a);
                 int b = scanner.nextInt();
                 validateVertex(b);
+                if(a == b) throw new IllegalArgumentException("Self Loop Detected!");
                 adj[a].add(b);
                 adj[b].add(a);
             }
