@@ -17,7 +17,7 @@ public class AdjSet {
 
             V = scanner.nextInt();
             if(V < 0) throw new IllegalArgumentException("V must be non-negative");
-            adj = (HashSet<Integer>[]) new HashSet[V];
+            adj = new HashSet[V];
             for(int i = 0; i < V; i ++)
                 adj[i] = new HashSet<Integer>();
 

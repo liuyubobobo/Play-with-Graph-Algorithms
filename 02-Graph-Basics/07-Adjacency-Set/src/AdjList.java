@@ -1,13 +1,13 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class AdjList {
 
     private int V;
     private int E;
-    private ArrayList<Integer>[] adj;
+    private LinkedList<Integer>[] adj;
 
     public AdjList(String pathStr){
 
@@ -17,9 +17,9 @@ public class AdjList {
 
             V = scanner.nextInt();
             if(V < 0) throw new IllegalArgumentException("V must be non-negative");
-            adj = (ArrayList<Integer>[]) new ArrayList[V];
+            adj = new LinkedList[V];
             for(int i = 0; i < V; i ++)
-                adj[i] = new ArrayList<Integer>();
+                adj[i] = new LinkedList<Integer>();
 
             E = scanner.nextInt();
             if(E < 0) throw new IllegalArgumentException("E must be non-negative");
@@ -58,13 +58,10 @@ public class AdjList {
     public boolean hasEdge(int v, int w){
         validateVertex(v);
         validateVertex(w);
-        for(int e: adj[v])
-            if(e == w)
-                return true;
-        return false;
+        return adj[v].contains(w);
     }
 
-    public ArrayList<Integer> adj(int v){
+    public LinkedList<Integer> adj(int v){
         validateVertex(v);
         return adj[v];
     }
