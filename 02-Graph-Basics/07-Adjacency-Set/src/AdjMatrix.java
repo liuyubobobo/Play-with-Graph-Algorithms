@@ -26,7 +26,10 @@ public class AdjMatrix {
                 validateVertex(a);
                 int b = scanner.nextInt();
                 validateVertex(b);
-                if(a == b) throw new IllegalArgumentException("Self Loop Detected!");
+
+                if(a == b) throw new IllegalArgumentException("Self Loop is Detected!");
+                if(adj[a][b] == 1) throw new IllegalArgumentException("Parallel Edges are Detected!");
+
                 adj[a][b] = 1;
                 adj[b][a] = 1;
             }
@@ -49,15 +52,10 @@ public class AdjMatrix {
         return E;
     }
 
-    public int degree(int v){
-//        validateVertex(v);
-//        int res = 0;
-//        for(int i = 0; i < V; i ++)
-//            if(adj[v][i] == 1)
-//                res ++;
-//        return res;
-
-        return adj(v).size();
+    public boolean hasEdge(int v, int w){
+        validateVertex(v);
+        validateVertex(w);
+        return adj[v][w] == 1;
     }
 
     public ArrayList<Integer> adj(int v){
@@ -69,10 +67,8 @@ public class AdjMatrix {
         return res;
     }
 
-    public boolean isAdj(int v, int w){
-        validateVertex(v);
-        validateVertex(w);
-        return adj[v][w] == 1;
+    public int degree(int v){
+        return adj(v).size();
     }
 
     @Override

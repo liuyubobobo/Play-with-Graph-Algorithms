@@ -29,7 +29,10 @@ public class AdjList {
                 validateVertex(a);
                 int b = scanner.nextInt();
                 validateVertex(b);
-                if(a == b) throw new IllegalArgumentException("Self Loop Detected!");
+
+                if(a == b) throw new IllegalArgumentException("Self Loop is Detected!");
+                if(adj[a].contains(b)) throw new IllegalArgumentException("Parallel Edges are Detected!");
+
                 adj[a].add(b);
                 adj[b].add(a);
             }
@@ -52,9 +55,13 @@ public class AdjList {
         return E;
     }
 
-    public int degree(int v){
+    public boolean hasEdge(int v, int w){
         validateVertex(v);
-        return adj[v].size();
+        validateVertex(w);
+        for(int e: adj[v])
+            if(e == w)
+                return true;
+        return false;
     }
 
     public ArrayList<Integer> adj(int v){
@@ -62,13 +69,8 @@ public class AdjList {
         return adj[v];
     }
 
-    public boolean isAdj(int v, int w){
-        validateVertex(v);
-        validateVertex(w);
-        for(int e: adj[v])
-            if(e == w)
-                return true;
-        return false;
+    public int degree(int v){
+        return adj[v].size();
     }
 
     @Override
