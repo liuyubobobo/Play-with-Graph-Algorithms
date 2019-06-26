@@ -1,6 +1,6 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.Scanner;
 
 
@@ -9,7 +9,7 @@ public class Graph {
 
     private int V;
     private int E;
-    private HashSet<Integer>[] adj;
+    private TreeSet<Integer>[] adj;
 
     public Graph(String filename){
 
@@ -19,9 +19,9 @@ public class Graph {
 
             V = scanner.nextInt();
             if(V < 0) throw new IllegalArgumentException("V must be non-negative");
-            adj = (HashSet<Integer>[]) new HashSet[V];
+            adj = new TreeSet[V];
             for(int i = 0; i < V; i ++)
-                adj[i] = new HashSet<Integer>();
+                adj[i] = new TreeSet<Integer>();
 
             E = scanner.nextInt();
             if(E < 0) throw new IllegalArgumentException("E must be non-negative");

@@ -1,13 +1,13 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.Scanner;
 
 public class AdjSet {
 
     private int V;
     private int E;
-    private HashSet<Integer>[] adj;
+    private TreeSet<Integer>[] adj;
 
     public AdjSet(String pathStr){
 
@@ -17,9 +17,9 @@ public class AdjSet {
 
             V = scanner.nextInt();
             if(V < 0) throw new IllegalArgumentException("V must be non-negative");
-            adj = new HashSet[V];
+            adj = new TreeSet[V];
             for(int i = 0; i < V; i ++)
-                adj[i] = new HashSet<Integer>();
+                adj[i] = new TreeSet<Integer>();
 
             E = scanner.nextInt();
             if(E < 0) throw new IllegalArgumentException("E must be non-negative");
@@ -62,7 +62,7 @@ public class AdjSet {
     }
 
     public Iterable<Integer> adj(int v){
-        // public HashSet<Integer> adj(int v){
+    // public TreeSet<Integer> adj(int v){
         validateVertex(v);
         return adj[v];
     }
@@ -88,7 +88,7 @@ public class AdjSet {
 
     public static void main(String[] args){
 
-        AdjList adjList = new AdjList("g.txt");
-        System.out.print(adjList);
+        AdjSet adjSet = new AdjSet("g.txt");
+        System.out.print(adjSet);
     }
 }

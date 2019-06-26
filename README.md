@@ -62,8 +62,9 @@
 | 2-4 更多图的方法 | [Java](02-Graph-Basics/04-Other-Methods-in-Graph/src/) |
 | 2-5 图的基本表示：邻接表 | [无代码] |
 | 2-6 邻接表的实现| [Java](02-Graph-Basics/06-Adjacency-List/src/) |
-| 2-7 邻接表的问题和改进 | [Java](02-Graph-Basics/06-Adjacency-Set/src/) |
-| 2-8 图的基本表示的比较 | [Java](02-Graph-Basics/08-Graph-Representation-Comparation/src/) |
+| 2-7 邻接表的问题和改进 | [无代码] |
+| 2-8 实现邻接表的改进 | [Java](02-Graph-Basics/08-Adjacency-Set/src/) |
+| 2-9 图的基本表示的比较 | [Java](02-Graph-Basics/09-Graph-Representation-Comparation/src/) |
 | **第三章 图的深度优先遍历** | [章节Java源码](03-Graph-DFS/) |
 | 3-1 遍历的意义 | [无代码] |
 | 3-2 图的深度优先遍历 | [无代码] |
