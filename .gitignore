@@ -32,10 +32,23 @@ Thumbs.db
 *.key
 
 #################
-# Course       #
+# Course        #
 #################
 ppt/
 text-contents/
+*.key
+
+
+# README.md
+
+#################
+# Github Ignore #
+#################
+README-imooc.md
+
 *.pdf
 *.PDF
-*.key
+
+03-Graph-DFS/07-Adjacency-Matrix-DFS/
+03-Graph-DFS/08-Graph-Interface/
+03-Graph-DFS/09-Graph-DFS-without-Recursion/
