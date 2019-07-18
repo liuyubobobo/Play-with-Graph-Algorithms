@@ -80,13 +80,14 @@
 | 4-2 DFS 中的一个小技巧 | [Java](04-Graph-DFS-Applications/02-Connected-Components/src/) |
 | 4-3 求解联通分量 | [Java](04-Graph-DFS-Applications/03-More-about-Connected-Components/src/) |
 | 4-4 单源路径问题 | [无代码] |
-| 4-4 单源路径问题的编程实现 | [Java](04-Graph-DFS-Applications/05-Single-Source-Path/src/) |
-| 4-5 【文字】 单源路径问题的小优化 | [见慕课网文字] |
-| 4-6 【文字】 所有点对路径问题 | [见慕课网文字] |
-| 4-7 提前结束递归：路径问题的另一个优化 | |
-| 4-8 无向图的环检测问题 |  |
-| 4-9 二分图检测问题 |  |
-| 4-10 更多关于图的深度优先遍历 |  |
+| 4-5 单源路径问题的编程实现 | [Java](04-Graph-DFS-Applications/05-Single-Source-Path/src/) |
+| 4-6 【文字】 单源路径问题的小优化 | [见慕课网文字] |
+| 4-7 【文字】 所有点对路径问题 | [见慕课网文字] |
+| 4-8 提前结束递归：路径问题的另一个优化 | [Java](04-Graph-DFS-Applications/08-Path-Improvement/src/) |
+| 4-9 无向图的环检测问题 | [Java](04-Graph-DFS-Applications/09-Cycle-Detection/src/) |
+| 4-10 二分图检测 | [无] |
+| 4-11 实现二分图检测 | [Java](04-Graph-DFS-Applications/11-Bipartition-Detection/src/) |
+| 4-12 本章小结和更多拓展 | [无] |
 | **第五章 图的广度优先遍历** | [章节Java源码](05-Graph-BFS/)  |
 | 5-1 从树的广度优先遍历到图的广度优先遍历 | |
 | 5-2 图的广度优先遍历的实现 | |
