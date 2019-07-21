@@ -52,6 +52,12 @@ README-imooc.md
 03-Graph-DFS/07-Adjacency-Matrix-DFS/
 03-Graph-DFS/08-Graph-Interface/
 03-Graph-DFS/09-Graph-DFS-without-Recursion/
+
 04-Graph-DFS-Applications/06-Single-Source-Path-Improvement/
 04-Graph-DFS-Applications/07-All-Pairs-Path/
+
 05-Graph-BFS/04-More-about-Path-BFS/
+05-Graph-BFS/05-CC-BFS/
+05-Graph-BFS/06-Cycle-Detection-BFS/
+05-Graph-BFS/07-Bipartition-Detection-BFS/
+
