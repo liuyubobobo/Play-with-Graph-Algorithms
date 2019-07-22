@@ -1,6 +1,6 @@
 ## 玩儿转图论算法 - 课程官方代码仓
 
-大家好， 欢迎大家来到我在[慕课网](http://www.imooc.com/)上的实战课程[《玩儿转图论算法》]()的官方代码仓。这个代码仓将不仅仅包含课程的所有源代码，还将发布课程的更新相关内容，勘误信息以及计划的更多可以丰富课程的内容，如更多分享，多多练习，等等等等。课程全部使用Java语言讲解，课程代码仓暂时只提供Java语言版本。
+大家好， 欢迎大家来到我在[慕课网](http://www.imooc.com/)上的实战课程[《玩儿转图论算法》](https://coding.imooc.com/class/370.html)的官方代码仓。这个代码仓将不仅仅包含课程的所有源代码，还将发布课程的更新相关内容，勘误信息以及计划的更多可以丰富课程的内容，如更多分享，多多练习，等等等等。课程全部使用Java语言讲解，课程代码仓暂时只提供Java语言版本。
 
 大家可以下载、运行、测试、修改。如果你发现了任何bug，或者对课程中的任何内容有意见或建议，欢迎和我联系：）
 
@@ -61,7 +61,7 @@
 | 2-3 图的基本表示：邻接矩阵 | [Java](02-Graph-Basics/03-Adjacency-Matrix/src/) |
 | 2-4 更多图的方法 | [Java](02-Graph-Basics/04-Other-Methods-in-Graph/src/) |
 | 2-5 图的基本表示：邻接表 | [无代码] |
-| 2-6 邻接表的实现| [Java](02-Graph-Basics/06-Adjacency-List/src/) |
+| 2-6 邻接表的实现 | [Java](02-Graph-Basics/06-Adjacency-List/src/) |
 | 2-7 邻接表的问题和改进 | [无代码] |
 | 2-8 实现邻接表的改进 | [Java](02-Graph-Basics/08-Adjacency-Set/src/) |
 | 2-9 图的基本表示的比较 | [Java](02-Graph-Basics/09-Graph-Representation-Comparation/src/) |
@@ -72,17 +72,17 @@
 | 3-4 实现图的深度优先遍历 | [Java](03-Graph-DFS/04-Graph-DFS-Implementation/src/) |
 | 3-5 图的深度优先遍历的改进 | [Java](03-Graph-DFS/05-Graph-DFS-Improvement/src/) |
 | 3-6 更多关于图的深度优先遍历 | [无代码] |
-| 3-7 【文字】 邻接矩阵的深度优先遍历 | [见慕课网文字] |
-| 3-8 【文字】 创建统一的图接口 | [见慕课网文字] |
-| 3-9 【文字】 深度优先遍历的非递归实现 | [见慕课网文字] |
+| 3-7 【文字】邻接矩阵的深度优先遍历 | [见慕课网代码仓] |
+| 3-8 【文字】创建统一的图接口 | [见慕课网代码仓] |
+| 3-9 【文字】深度优先遍历的非递归实现 | [见慕课网代码仓] |
 | **第四章 图的深度优先遍历的应用** | [章节Java源码](04-Graph-DFS-Applications/)  |
 | 4-1 图的联通分量的个数 | [Java](04-Graph-DFS-Applications/01-Connected-Components-Count/src/) |
 | 4-2 DFS 中的一个小技巧 | [Java](04-Graph-DFS-Applications/02-Connected-Components/src/) |
 | 4-3 求解联通分量 | [Java](04-Graph-DFS-Applications/03-More-about-Connected-Components/src/) |
 | 4-4 单源路径问题 | [无代码] |
 | 4-5 单源路径问题的编程实现 | [Java](04-Graph-DFS-Applications/05-Single-Source-Path/src/) |
-| 4-6 【文字】 单源路径问题的小优化 | [见慕课网文字] |
-| 4-7 【文字】 所有点对路径问题 | [见慕课网文字] |
+| 4-6 【文字】单源路径问题的小优化 | [见慕课网代码仓] |
+| 4-7 【文字】所有点对路径问题 | [见慕课网代码仓] |
 | 4-8 提前结束递归：路径问题的另一个优化 | [Java](04-Graph-DFS-Applications/08-Path-Improvement/src/) |
 | 4-9 无向图的环检测问题 | [Java](04-Graph-DFS-Applications/09-Cycle-Detection/src/) |
 | 4-10 二分图检测 | [无] |
@@ -90,14 +90,14 @@
 | 4-12 本章小结和更多拓展 | [无] |
 | **第五章 图的广度优先遍历** | [章节Java源码](05-Graph-BFS/)  |
 | 5-1 从树的广度优先遍历到图的广度优先遍历 | [无] |
-| 5-2 图的 BFS 的实现 | [Java](05-Graph-BFS/02-BFS/) |
-| 5-3 使用 BFS 求解路径问题 | [Java](05-Graph-BFS/03-Single-Source-Path-BFS/) |
-| 5-4 【文字】更多关于使用 BFS 求解路径问题 | [见慕课网文字] |
-| 5-5 【文字】使用 BFS 求解联通分量问题 | [见慕课网文字] |
-| 5-6 【文字】使用 BFS 求解环检测问题 | [见慕课网文字] |
-| 5-7 【文字】使用 BFS 求解二分图检测问题 | [见慕课网文字] |
+| 5-2 图的 BFS 的实现 | [Java](05-Graph-BFS/02-BFS/src/) |
+| 5-3 使用 BFS 求解路径问题 | [Java](05-Graph-BFS/03-Single-Source-Path-BFS/src/) |
+| 5-4 【文字】更多关于使用 BFS 求解路径问题 | [见慕课网代码仓] |
+| 5-5 【文字】使用 BFS 求解联通分量问题 | [见慕课网代码仓] |
+| 5-6 【文字】使用 BFS 求解环检测问题 | [见慕课网代码仓] |
+| 5-7 【文字】使用 BFS 求解二分图检测问题 | [见慕课网代码仓] |
 | 5-8 BFS 的重要性质 | [无] |
-| 5-9 无权图的最短路径 | [Java](05-Graph-BFS/09-Unweighted-Shortest-Path/) |
+| 5-9 无权图的最短路径 | [Java](05-Graph-BFS/09-Unweighted-Shortest-Path/src/) |
 | 5-10 DFS 和 BFS 的神奇联系，与本章小结 | [无] |
 | **第六章 图论问题建模** | [更新中，敬请期待] |
 | | |
@@ -117,7 +117,6 @@
 | | |
 | **第十四章 更广阔的图论世界** | [更新中，敬请期待] |
 | | |
-
 
 课程正在更新中，敬请期待：）
 
