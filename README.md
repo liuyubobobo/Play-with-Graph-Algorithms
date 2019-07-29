@@ -99,8 +99,18 @@
 | 5-8 BFS 的重要性质 | [无] |
 | 5-9 无权图的最短路径 | [Java](05-Graph-BFS/09-Unweighted-Shortest-Path/src/) |
 | 5-10 DFS 和 BFS 的神奇联系，与本章小结 | [无] |
-| **第六章 图论问题建模** | [更新中，敬请期待] |
-| | |
+| **第六章 图论问题建模** | [章节Java源码](06-Graph-Model-Problem/) |
+| 6-1 算法笔试中图论问题的书写 | [Java](06-Graph-Model-Problem/01-Leetcode-Graph-Basics/src/) |
+| 6-2 图的建模和二维数组中的小节 | 无 |
+| 6-3 实现图的建模问题 | [Java](06-Graph-Model-Problem/03-Graph-Construction/src/) |
+| 6-4 Flood Fill | [Java](06-Graph-Model-Problem/04-Flood-Fill/src/) |
+| 6-5 更多关于 Flood Fill 的问题 | [无] |
+| 6-6 算法笔试中的 BFS 问题 | [Java](06-Graph-Model-Problem/06-Leetcode-BFS/src/) |
+| 6-7 图论建模的核心：状态表达 | [Java](06-Graph-Model-Problem/07-States/src/) |
+| 6-8 一道智力题，又一道智力题 | [Java](06-Graph-Model-Problem/08-Puzzle/src/) |
+| 6-9 基于搜索的人工智能 | [Java](06-Graph-Model-Problem/09-Search-and-AI/src/) |
+| 6-10 灵活使用 BFS | [Java](06-Graph-Model-Problem/10-More-about-BFS/src/) |
+| 6-11 更多 Leetcode 上的 DFS 和 BFS 问题 | [无] |
 | **第七章 图的遍历树，桥和割点** | [更新中，敬请期待] |
 | | |
 | **第八章 欧拉路径和哈密尔顿路径** | [更新中，敬请期待] |
