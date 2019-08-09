@@ -107,16 +107,16 @@
 | 6-5 更多关于 Flood Fill 的问题 | [无] |
 | 6-6 【文字】联通性和并查集 | [见慕课网代码仓] |
 | 6-7 【文字】在 Leetcode 上的更多优化 | [见慕课网代码仓] |
-| **第七章 人工智能和图论搜索** | [章节Java源码](07-AI-Search-and-BFS/) |
+| **第七章 图论搜索和人工智能** | [章节Java源码](07-AI-Search-and-BFS/) |
 | 7-1 算法笔试中的 BFS 问题 | [Java](07-AI-Search-and-BFS/01-Leetcode-BFS/src/) |
 | 7-2 图论建模的核心：状态表达 | [无] |
 | 7-3 实现转盘锁问题 | [Java](07-AI-Search-and-BFS/03-States/src/) |
 | 7-4 一道智力题 | [Java](07-AI-Search-and-BFS/04-Water-Puzzle-Uncompleted/src/) |
 | 7-5 代码实现一道智力题 | [Java](07-AI-Search-and-BFS/05-Water-Puzzle-Completed/src/) |
-| 7-6 基于搜索的人工智能 | [Java](07-AI-Search-and-BFS/06-Search-and-AI/src/) |
-| 7-7 灵活使用 BFS | [Java](07-AI-Search-and-BFS/07-More-about-BFS/src/) |
-| 7-8 更多 Leetcode 上的 DFS 和 BFS 问题 | [无] |
-| **第八章 图的遍历树，桥和割点** | [更新中，敬请期待] |
+| 7-6 Leetcode 上一个困难的问题 | [Java](07-AI-Search-and-BFS/06-Sliding-Puzzle-Uncompleted/src/) |
+| 7-7 实现滑动谜题 | [Java](07-AI-Search-and-BFS/07-Sliding-Puzzle-Completed/src/) |
+| 7-8 图论搜索和人工智能 | [无] |
+| **第八章 桥和割点** | [更新中，敬请期待] |
 | | |
 | **第九章 欧拉路径和哈密尔顿路径** | [更新中，敬请期待] |
 | | |
