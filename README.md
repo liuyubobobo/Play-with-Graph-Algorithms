@@ -116,7 +116,12 @@
 | 7-6 Leetcode 上一个困难的问题 | [Java](07-AI-Search-and-BFS/06-Sliding-Puzzle-Uncompleted/src/) |
 | 7-7 实现滑动谜题 | [Java](07-AI-Search-and-BFS/07-Sliding-Puzzle-Completed/src/) |
 | 7-8 图论搜索和人工智能 | [无] |
-| **第八章 桥和割点** | [更新中，敬请期待] |
+| **第八章 桥和割点** | [章节Java源码](08-Bridges-and-Cut-Points/) |
+| 8-1 什么是桥 | [无] |
+| 8-2 如何寻找桥 | [无] |
+| 8-3 完整模拟寻找桥算法 | [无] |
+| 8-4 实现寻找桥算法 | [Java](08-Bridges-and-Cut-Points/04-Bridges-Algorithm/src/) |
+| 8-5 什么是割点 | [无] |
 | | |
 | **第九章 欧拉路径和哈密尔顿路径** | [更新中，敬请期待] |
 | | |
