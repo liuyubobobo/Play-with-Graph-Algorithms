@@ -30,17 +30,18 @@ public class FindBridges {
 
         visited[v] = true;
         ord[v] = cnt;
-        low[v] = cnt;
+        low[v] = ord[v];
         cnt ++;
 
         for(int w: G.adj(v))
             if(!visited[w]){
                 dfs(w, v);
                 low[v] = Math.min(low[v], low[w]);
-                if(low[w] == ord[w]) res.add(new Edge(v, w));
+                if(low[w] > ord[v])
+                    res.add(new Edge(v, w));
             }
             else if(w != parent)
-                low[v] = Math.min(low[v], low[w]);
+                low[v] = Math.min(low[v], ord[w]);
     }
 
     public ArrayList<Edge> result(){
