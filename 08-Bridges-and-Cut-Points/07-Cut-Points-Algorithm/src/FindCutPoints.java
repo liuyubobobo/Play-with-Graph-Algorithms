@@ -1,14 +1,12 @@
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 
 public class FindCutPoints {
 
     private Graph G;
     private boolean[] visited;
 
-    private int ord[];
-    private int low[];
+    private int[] ord;
+    private int[] low;
     private int cnt;
 
     private HashSet<Integer> res;
@@ -42,15 +40,15 @@ public class FindCutPoints {
                 dfs(w, v);
                 low[v] = Math.min(low[v], low[w]);
 
+                if(v != parent && low[w] >= ord[v])
+                    res.add(v);
+
                 child ++;
                 if(v == parent && child > 1)
                     res.add(v);
-
-                if(v != parent && low[w] >= ord[v])
-                    res.add(v);
             }
             else if(w != parent)
-                low[v] = Math.min(low[v], ord[w]);
+                low[v] = Math.min(low[v], low[w]);
     }
 
     public HashSet<Integer> result(){

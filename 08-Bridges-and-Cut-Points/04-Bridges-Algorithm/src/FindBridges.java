@@ -41,7 +41,7 @@ public class FindBridges {
                     res.add(new Edge(v, w));
             }
             else if(w != parent)
-                low[v] = Math.min(low[v], ord[w]);
+                low[v] = Math.min(low[v], low[w]);
     }
 
     public ArrayList<Edge> result(){
