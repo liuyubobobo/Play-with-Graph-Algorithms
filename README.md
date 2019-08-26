@@ -116,7 +116,7 @@
 | 7-6 Leetcode 上一个困难的问题 | [Java](07-AI-Search-and-BFS/06-Sliding-Puzzle-Uncompleted/src/) |
 | 7-7 实现滑动谜题 | [Java](07-AI-Search-and-BFS/07-Sliding-Puzzle-Completed/src/) |
 | 7-8 图论搜索和人工智能 | [无] |
-| **第八章 桥和割点** | [章节Java源码](08-Bridges-and-Cut-Points/) |
+| **第八章 桥，割点和图的遍历树** | [章节Java源码](08-Bridges-and-Cut-Points/) |
 | 8-1 什么是桥 | [无] |
 | 8-2 如何寻找桥 | [无] |
 | 8-3 完整模拟寻找桥算法 | [无] |
@@ -126,7 +126,13 @@
 | 8-7 实现寻找割点的算法 | [Java](08-Bridges-and-Cut-Points/07-Cut-Points-Algorithm/src/) |
 | 8-8 本章小结：寻找桥和割点 | [无] |
 | **第九章 哈密尔顿回路和状态压缩** | [更新中，敬请期待] |
-| | |
+| 9-1 哈密尔顿回路问题 | [无] |
+| 9-2 实现哈密尔顿回路算法 | [Java](09-09-Hamilton-Loop-and-Path/02-Hamilton-Loop/) |
+| 9-3 【文字】哈密尔顿回路算法的一个优化 | [见慕课网代码仓] |
+| 9-4 【文字】哈密尔顿路径算法 | [见慕课网代码仓] |
+| 9-5 状态压缩 | |
+| 9-6 基于状态压缩的哈密尔顿回路算法 | |
+| 9-7 Leetcode 上的哈密尔顿问题 | |
 | **第十章 欧拉回路** | [更新中，敬请期待] |
 | | |
 | **第十一章 最小生成树** | [更新中，敬请期待] |
