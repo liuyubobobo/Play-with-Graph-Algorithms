@@ -125,14 +125,17 @@
 | 8-6 割点和寻找割点的算法 | [无] |
 | 8-7 实现寻找割点的算法 | [Java](08-Bridges-and-Cut-Points/07-Cut-Points-Algorithm/src/) |
 | 8-8 本章小结：寻找桥和割点 | [无] |
-| **第九章 哈密尔顿回路和状态压缩** | [更新中，敬请期待] |
-| 9-1 哈密尔顿回路问题 | [无] |
-| 9-2 实现哈密尔顿回路算法 | [Java](09-09-Hamilton-Loop-and-Path/02-Hamilton-Loop/) |
-| 9-3 【文字】哈密尔顿回路算法的一个优化 | [见慕课网代码仓] |
-| 9-4 【文字】哈密尔顿路径算法 | [见慕课网代码仓] |
-| 9-5 状态压缩 | |
-| 9-6 基于状态压缩的哈密尔顿回路算法 | |
-| 9-7 Leetcode 上的哈密尔顿问题 | |
+| **第九章 哈密尔顿回路和状态压缩** | [章节Java源码](09-Hamilton-Loop-and-Path/) |
+| 9-1 哈密尔顿回路和 TSP | [无] |
+| 9-2 求解哈密尔顿回路的算法 | [无] |
+| 9-3 实现哈密尔顿回路算法 | [Java](09-Hamilton-Loop-and-Path/03-Hamilton-Loop/src/) |
+| 9-4 哈密尔顿回路算法的一个优化 | [Java](09-Hamilton-Loop-and-Path/04-Hamilton-Loop-Optimization/src/) |
+| 9-5 【文字】哈密尔顿路径算法 | [见慕课网代码仓] |
+| 9-6 Leetcode 上的哈密尔顿问题 | [Java](09-Hamilton-Loop-and-Path/06-Unique-Paths-III/src/) |
+| 9-7 状态压缩 | [无] |
+| 9-8 基于状态压缩的哈密尔顿回路算法 | [Java](09-Hamilton-Loop-and-Path/08-State-Compression/src/) |
+| 9-9 记忆化搜索 | [Java](09-Hamilton-Loop-and-Path/09-Memory-Search/src/) |
+| 9-10 哈密尔顿回路和哈密尔顿路径小结 | [无] |
 | **第十章 欧拉回路** | [更新中，敬请期待] |
 | | |
 | **第十一章 最小生成树** | [更新中，敬请期待] |
