@@ -19,25 +19,26 @@ public class EulerLoop {
         return true;
     }
 
-    public ArrayList<Integer> loop(){
+    public ArrayList<Integer> result(){
 
         ArrayList<Integer> res = new ArrayList<>();
         if(!hasEulerLoop()) return res;
 
         Graph g = (Graph)G.clone();
-        Stack<Integer> curPath = new Stack<>();
+
+        Stack<Integer> stack = new Stack<>();
         int curv = 0;
-        curPath.push(curv);
-        while(!curPath.isEmpty()){
+        stack.push(curv);
+        while(!stack.isEmpty()){
             if(g.degree(curv) != 0){
-                curPath.push(curv);
+                stack.push(curv);
                 int w = g.adj(curv).iterator().next();
                 g.removeEdge(curv, w);
                 curv = w;
             }
             else{
                 res.add(curv);
-                curv = curPath.pop();
+                curv = stack.pop();
             }
         }
         return res;
@@ -47,6 +48,10 @@ public class EulerLoop {
 
         Graph g = new Graph("g.txt");
         EulerLoop el = new EulerLoop(g);
-        System.out.print(el.loop());
+        System.out.println(el.result());
+
+        Graph g2 = new Graph("g2.txt");
+        EulerLoop el2 = new EulerLoop(g2);
+        System.out.println(el2.result());
     }
 }
