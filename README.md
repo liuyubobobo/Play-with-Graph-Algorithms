@@ -138,13 +138,13 @@
 | 9-8 基于状态压缩的哈密尔顿回路算法 | [Java](09-Hamilton-Loop-and-Path/08-State-Compression/src/) |
 | 9-9 记忆化搜索 | [Java](09-Hamilton-Loop-and-Path/09-Memory-Search/src/) |
 | 9-10 哈密尔顿回路和哈密尔顿路径小结 | [无] |
-| **第十章 欧拉回路** | [Java](10-Euler-Loop-and-Path/) |
+| **第十章 欧拉回路** | [Java](10-Euler-Loop-and-Euler-Path/) |
 | 10-1 什么是欧拉回路 | [无] |
 | 10-2 欧拉回路的存在性 | [无] |
-| 10-3 实现欧拉回路存在的判断 | [Java](10-Euler-Loop-and-Path/03-Euler-Loop-Detection/src/) |
+| 10-3 实现欧拉回路存在的判断 | [Java](10-Euler-Loop-and-Euler-Path/03-Euler-Loop-Detection/src/) |
 | 10-4 求解欧拉回路的三种算法 | [无] |
 | 10-5 Hierholzer 算法模拟 | [无] |
-| 10-6 实现 Hierholzer 算法 | [Java](10-Euler-Loop-and-Path/06-Hierholzer-Algorithms/src/) |
+| 10-6 实现 Hierholzer 算法 | [Java](10-Euler-Loop-and-Euler-Path/06-Hierholzer-Algorithm/src/) |
 | 10-7 欧拉路径和更多欧拉回路相关问题 | [无] |
 | 补充代码 1 欧拉路径 | - |
 | 补充代码 2 欧拉回路的递归实现 | - |
