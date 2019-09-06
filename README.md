@@ -88,6 +88,7 @@
 | 4-10 二分图检测 | [无] |
 | 4-11 实现二分图检测 | [Java](04-Graph-DFS-Applications/11-Bipartition-Detection/src/) |
 | 4-12 本章小结和更多拓展 | [无] |
+| 补充内容 1 所有路径问题 | - |
 | **第五章 图的广度优先遍历** | [章节Java源码](05-Graph-BFS/)  |
 | 5-1 从树的广度优先遍历到图的广度优先遍历 | [无] |
 | 5-2 图的 BFS 的实现 | [Java](05-Graph-BFS/02-BFS/src/) |
@@ -116,6 +117,7 @@
 | 7-6 Leetcode 上一个困难的问题 | [Java](07-AI-Search-and-BFS/06-Sliding-Puzzle-Uncompleted/src/) |
 | 7-7 实现滑动谜题 | [Java](07-AI-Search-and-BFS/07-Sliding-Puzzle-Completed/src/) |
 | 7-8 图论搜索和人工智能 | [无] |
+| 补充代码1 过河问题代码参考 | - |
 | **第八章 桥，割点和图的遍历树** | [章节Java源码](08-Bridges-and-Cut-Points/) |
 | 8-1 什么是桥 | [无] |
 | 8-2 如何寻找桥 | [无] |
@@ -136,8 +138,16 @@
 | 9-8 基于状态压缩的哈密尔顿回路算法 | [Java](09-Hamilton-Loop-and-Path/08-State-Compression/src/) |
 | 9-9 记忆化搜索 | [Java](09-Hamilton-Loop-and-Path/09-Memory-Search/src/) |
 | 9-10 哈密尔顿回路和哈密尔顿路径小结 | [无] |
-| **第十章 欧拉回路** | [更新中，敬请期待] |
-| | |
+| **第十章 欧拉回路** | [Java](10-Euler-Loop-and-Path/) |
+| 10-1 什么是欧拉回路 | [无] |
+| 10-2 欧拉回路的存在性 | [无] |
+| 10-3 实现欧拉回路存在的判断 | [Java](10-Euler-Loop-and-Path/03-Euler-Loop-Detection/src/) |
+| 10-4 求解欧拉回路的三种算法 | [无] |
+| 10-5 Hierholzer 算法模拟 | [无] |
+| 10-6 实现 Hierholzer 算法 | [Java](10-Euler-Loop-and-Path/06-Hierholzer-Algorithms/src/) |
+| 10-7 欧拉路径和更多欧拉回路相关问题 | [无] |
+| 补充代码 1 欧拉路径 | - |
+| 补充代码 2 欧拉回路的递归实现 | - |
 | **第十一章 最小生成树** | [更新中，敬请期待] |
 | | |
 | **第十二章 有向图算法** | [更新中，敬请期待] |
