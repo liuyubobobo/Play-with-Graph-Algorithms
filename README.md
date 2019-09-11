@@ -138,7 +138,7 @@
 | 9-8 基于状态压缩的哈密尔顿回路算法 | [Java](09-Hamilton-Loop-and-Path/08-State-Compression/src/) |
 | 9-9 记忆化搜索 | [Java](09-Hamilton-Loop-and-Path/09-Memory-Search/src/) |
 | 9-10 哈密尔顿回路和哈密尔顿路径小结 | [无] |
-| **第十章 欧拉回路** | [Java](10-Euler-Loop-and-Euler-Path/) |
+| **第十章 欧拉回路与欧拉路径** | [章节Java源码](10-Euler-Loop-and-Euler-Path/) |
 | 10-1 什么是欧拉回路 | [无] |
 | 10-2 欧拉回路的存在性 | [无] |
 | 10-3 实现欧拉回路存在的判断 | [Java](10-Euler-Loop-and-Euler-Path/03-Euler-Loop-Detection/src/) |
@@ -148,8 +148,17 @@
 | 10-7 欧拉路径和更多欧拉回路相关问题 | [无] |
 | 补充代码 1 欧拉路径 | - |
 | 补充代码 2 欧拉回路的递归实现 | - |
-| **第十一章 最小生成树** | [更新中，敬请期待] |
-| | |
+| **第十一章 最小生成树** | [章节Java源码](11-Minimum-Tree-Spanning/) |
+| 11-1 带权图及实现 | [Java](11-Minimum-Tree-Spanning/01-Weighted-Graph/src/) |
+| 11-2 Map 的遍历 | [Java](11-Minimum-Tree-Spanning/02-Weighted-Graph-Completed/src/) |
+| 11-3 最小生成树和 Kruuskal 算法 | [无] |
+| 11-4 切分定理 | [无] |
+| 11-5 Kruskal 算法的实现 | [Java](11-Minimum-Tree-Spanning/05-Kruskal-Algorithm/src/) |
+| 11-6 并查集动态环判断 | [Java](11-Minimum-Tree-Spanning/06-Kruskal-Algorithm-Completed/src/) |
+| 11-7 Prim 算法 | [无] |
+| 11-8 Prim 算法的实现 | [Java](11-Minimum-Tree-Spanning/08-Prim-Algorithm/src/) |
+| 11-9 Prim 算法的优化 | [Java](11-Minimum-Tree-Spanning/09-Prim-Algorithm-Optimized/src/) |
+| 11-10 关于最小生成树问题的更多讨论 | [无] |
 | **第十二章 有向图算法** | [更新中，敬请期待] |
 | | |
 | **第十三章 最短路径** | [更新中，敬请期待] |
