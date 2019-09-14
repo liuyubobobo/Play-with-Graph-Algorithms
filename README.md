@@ -155,7 +155,7 @@
 | 11-4 切分定理 | [无] |
 | 11-5 Kruskal 算法的实现 | [Java](11-Minimum-Tree-Spanning/05-Kruskal-Algorithm/src/) |
 | 11-6 并查集动态环检测 | [Java](11-Minimum-Tree-Spanning/06-Kruskal-Algorithm-Completed/src/) |
-| 11-7 Prim 算法 | [无] |
+| 11-7 Prim 算法原理 | [无] |
 | 11-8 Prim 算法的实现 | [Java](11-Minimum-Tree-Spanning/08-Prim-Algorithm/src/) |
 | 11-9 Prim 算法的优化 | [Java](11-Minimum-Tree-Spanning/09-Prim-Algorithm-Optimized/src/) |
 | 11-10 关于最小生成树问题的更多讨论 | [无] |
