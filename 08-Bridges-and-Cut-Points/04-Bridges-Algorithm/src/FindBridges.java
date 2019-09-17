@@ -58,8 +58,12 @@ public class FindBridges {
         FindBridges fb2 = new FindBridges(g2);
         System.out.println("Bridges in g2 : " + fb2.result());
 
+        Graph g3 = new Graph("g3.txt");
+        FindBridges fb3 = new FindBridges(g3);
+        System.out.println("Bridges in g3 : " + fb3.result());
+
         Graph tree = new Graph("tree.txt");
-        FindBridges fb3 = new FindBridges(tree);
-        System.out.println("Bridges in tree : " + fb3.result());
+        FindBridges fb_tree = new FindBridges(tree);
+        System.out.println("Bridges in tree : " + fb_tree.result());
     }
 }
