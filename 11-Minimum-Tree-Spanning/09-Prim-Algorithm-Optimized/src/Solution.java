@@ -1,5 +1,10 @@
-/// Leetcode 1168
+/// Leetcode 1168. Optimize Water Distribution in a Village
+/// https://leetcode.com/problems/optimize-water-distribution-in-a-village/
+///
+/// 课程中在这里暂时没有介绍这个问题
+/// 该代码主要用于使用 Leetcode 上的问题测试我们的 Prim 算法类
 import java.util.*;
+
 
 /// Prim Optimized
 class Solution {
