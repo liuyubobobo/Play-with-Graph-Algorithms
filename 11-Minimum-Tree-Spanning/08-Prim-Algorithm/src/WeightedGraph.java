@@ -6,7 +6,7 @@ import java.util.TreeMap;
 import java.util.Scanner;
 
 
-/// 暂时只支持无向无权图
+/// 暂时只支持无向带权图
 public class WeightedGraph implements Cloneable{
 
     private int V;
