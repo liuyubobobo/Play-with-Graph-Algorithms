@@ -159,7 +159,12 @@
 | 11-8 Prim 算法的实现 | [Java](11-Minimum-Tree-Spanning/08-Prim-Algorithm/src/) |
 | 11-9 Prim 算法的优化 | [Java](11-Minimum-Tree-Spanning/09-Prim-Algorithm-Optimized/src/) |
 | 11-10 关于最小生成树问题的更多讨论 | [无] |
-| **第十二章 最短路径算法** | [更新中，敬请期待] |
+| **第十二章 最短路径算法** | [章节Java源码](12-Shortest-Path/) |
+| 12-1 有权图的最短路径问题 | [无] |
+| 12-2 Dijkstra 算法的原理和模拟 | [无] |
+| 12-3 实现 Dijkstra 算法 | [Java](12-Shortest-Path/03-Dijkstra-Algorithm/src/) |
+| 12-4 Dijkstra 算法的优化 | [Java](12-Shortest-Path/04-Dijkstra-Algorithm-Optimized/src/) |
+| 12-5 更多关于 Dijkstra 算法的讨论 | [Java](12-Shortest-Path/05-More-about-Dijkstra/src/) |
 | | |
 | **第十三章 有向图算法** | [更新中，敬请期待] |
 | | |
