@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.PriorityQueue;
+import java.util.Collections;
 
 
 public class Dijkstra {
@@ -11,6 +11,7 @@ public class Dijkstra {
     private int[] dis;
     private boolean[] visited;
     private int[] pre;
+
 
     private class Node implements Comparable<Node>{
 
@@ -40,9 +41,9 @@ public class Dijkstra {
         pre = new int[G.V()];
         Arrays.fill(pre, -1);
 
+        visited = new boolean[G.V()];
         dis[s] = 0;
         pre[s] = s;
-        visited = new boolean[G.V()];
 
         PriorityQueue<Node> pq = new PriorityQueue<Node>();
         pq.add(new Node(s, 0));
@@ -78,7 +79,7 @@ public class Dijkstra {
 
     public Iterable<Integer> path(int t){
 
-        ArrayList<Integer> res = new ArrayList<>();
+        ArrayList<Integer> res = new ArrayList<Integer>();
         if(!isConnectedTo(t)) return res;
 
         int cur = t;
