@@ -165,9 +165,16 @@
 | 12-3 实现 Dijkstra 算法 | [Java](12-Shortest-Path/03-Dijkstra-Algorithm/src/) |
 | 12-4 Dijkstra 算法的优化 | [Java](12-Shortest-Path/04-Dijkstra-Algorithm-Optimized/src/) |
 | 12-5 更多关于 Dijkstra 算法的讨论 | [Java](12-Shortest-Path/05-More-about-Dijkstra/src/) |
-| | |
+| 12-6 Bellman-Ford 算法 | [无] |
+| 12-7 负权环 | [无] |
+| 12-8 实现 Bellman-Ford 算法 | [Java](12-Shortest-Path/08-Bellman-Ford-Algorithm/src/) |
+| 12-9 更多关于 Bellman-Ford 算法的讨论 | [Java](12-Shortest-Path/09-More-about-Bellman-Ford/src/) |
+| 12-10 Floyed 算法原理 | 无 |
+| 12-11 实现 Floyed 算法 | [Java](12-Shortest-Path/11-Floyed-Algorithm/src/) |
+| 12-12 更多关于最短路径问题的讨论 | [无] | 
 | **第十三章 有向图算法** | [更新中，敬请期待] |
-| | |
+| 13-1 有向无权图 | [Java] |
+| 13-2 有向有权图 | [Java] |
 | **第十四章 网络流** | [更新中，敬请期待] |
 | | |
 | **第十五章 匹配算法** | [更新中，敬请期待] |
