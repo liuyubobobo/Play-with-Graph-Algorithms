@@ -13,18 +13,19 @@ public class Floyed {
         dis = new int[G.V()][G.V()];
         for(int v = 0; v < G.V(); v ++)
             Arrays.fill(dis[v], Integer.MAX_VALUE);
+
         for(int v = 0; v < G.V(); v ++){
             dis[v][v] = 0;
             for(int w: G.adj(v))
                 dis[v][w] = G.getWeight(v, w);
         }
 
-        for(int k = 0; k < G.V(); k ++)
+        for(int t = 0; t < G.V(); t ++)
             for(int v = 0; v < G.V(); v ++)
                 for(int w = 0; w < G.V(); w ++)
-                    if(dis[v][k] != Integer.MAX_VALUE && dis[k][w] != Integer.MAX_VALUE
-                       && dis[v][k] + dis[k][w] < dis[v][w])
-                        dis[v][w] = dis[v][k] + dis[k][w];
+                    if(dis[v][t] != Integer.MAX_VALUE && dis[t][w] != Integer.MAX_VALUE
+                       && dis[v][t] + dis[t][w] < dis[v][w])
+                        dis[v][w] = dis[v][t] + dis[t][w];
 
         for(int v = 0; v < G.V(); v ++)
             if(dis[v][v] < 0)
@@ -54,7 +55,7 @@ public class Floyed {
         if(!floyed.hasNegativeCycle()){
             for(int v = 0; v < g.V(); v ++){
                 for(int w = 0; w < g.V(); w ++)
-                System.out.print(floyed.distTo(v, w) + " ");
+                    System.out.print(floyed.distTo(v, w) + " ");
                 System.out.println();
             }
         }
