@@ -76,6 +76,7 @@ public class Graph implements Cloneable{
     public void removeEdge(int v, int w){
         validateVertex(v);
         validateVertex(w);
+        if(adj[v].contains(w)) E --;
         adj[v].remove(w);
         adj[w].remove(v);
     }

@@ -83,6 +83,7 @@ class Solution {
         public void removeEdge(int v, int w){
             validateVertex(v);
             validateVertex(w);
+            if(adj[v].containsKey(w)) E --;
             adj[v].remove(w);
             adj[w].remove(v);
         }
