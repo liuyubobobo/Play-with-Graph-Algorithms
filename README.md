@@ -172,9 +172,15 @@
 | 12-10 Floyed 算法原理 | 无 |
 | 12-11 实现 Floyed 算法 | [Java](12-Shortest-Path/11-Floyed-Algorithm/src/) |
 | 12-12 更多关于最短路径问题的讨论 | [无] | 
-| **第十三章 有向图算法** | [更新中，敬请期待] |
-| 13-1 有向无权图 | [Java] |
-| 13-2 有向有权图 | [Java] |
+| **第十三章 有向图算法** | [章节Java源码](13-Directed-Graph/) |
+| 13-1 有向图的实现 | [Java](13-Directed-Graph/01-Directed-Graph/src/) |
+| 13-2 有向图算法 | [Java](13-Directed-Graph/02-Directed-Graph-Algorithms/src/) |
+| 13-3 有向图环检测和 DAG | [Java](13-Directed-Graph/03-Directed-Cycle-Detection/src/) |
+| 13-4 有向图的度：入度和出度 | [Java](13-Directed-Graph/04-Directed-Graph-Degrees/src/) |
+| 13-5 有向图求解欧拉回路 | [Java](13-Directed-Graph/05-Directed-Euler-Loop/src/) |
+| 13-6 拓扑排序 | [Java](13-Directed-Graph/06-Topological-Sort/src/) |
+| 13-7 另一个拓扑排序的实现和 DFS 后序遍历的逆 | [Java](13-Directed-Graph/07-Another-Topological-Sort-Implementation/src/) |
+| | |
 | **第十四章 网络流** | [更新中，敬请期待] |
 | | |
 | **第十五章 匹配算法** | [更新中，敬请期待] |
