@@ -3,13 +3,13 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class TopoSort {
+public class TopoSort2 {
 
     private Graph G;
     private ArrayList<Integer> res;
     private boolean hasCycle = false;
 
-    public TopoSort(Graph G){
+    public TopoSort2(Graph G){
 
         if(!G.isDirected())
             throw new IllegalArgumentException("DirectedCycleDetection only works in directed graph.");
@@ -17,7 +17,7 @@ public class TopoSort {
         this.G = G;
         res = new ArrayList<>();
 
-        hasCycle = new DirectedCycleDetection(G).hasCycle();
+        hasCycle = (new DirectedCycleDetection(G)).hasCycle();
         if(hasCycle) return;
 
         GraphDFS dfs = new GraphDFS(G);
@@ -38,7 +38,7 @@ public class TopoSort {
     public static void main(String[] args){
 
         Graph ug = new Graph("ug.txt", true);
-        TopoSort topoSort = new TopoSort(ug);
+        TopoSort2 topoSort = new TopoSort2(ug);
         System.out.println(topoSort.result());
     }
 }

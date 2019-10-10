@@ -1,3 +1,8 @@
+/// Leetcode 210. Course Schedule II
+/// https://leetcode.com/problems/course-schedule-ii/
+///
+/// 课程中在这里暂时没有介绍这个问题
+/// 该代码主要用于使用 Leetcode 上的问题测试我们的 TopSort2 算法类
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -215,13 +220,13 @@ class Solution {
         }
     }
 
-    public class TopoSort {
+    public class TopoSort2 {
 
         private Graph G;
         private ArrayList<Integer> res;
         private boolean hasCycle = false;
 
-        public TopoSort(Graph G){
+        public TopoSort2(Graph G){
 
             if(!G.isDirected())
                 throw new IllegalArgumentException("DirectedCycleDetection only works in directed graph.");
@@ -254,8 +259,8 @@ class Solution {
         for(int[] e: prerequisites)
             g.addEdge(e[1], e[0]);
 
-        TopoSort topoSort = new TopoSort(g);
-        if(topoSort.hasCycle) return new int[0];
+        TopoSort2 topoSort = new TopoSort2(g);
+        if(topoSort.hasCycle()) return new int[0];
 
         int[] res = new int[numCourses];
         for(int i = 0; i < numCourses; i ++)

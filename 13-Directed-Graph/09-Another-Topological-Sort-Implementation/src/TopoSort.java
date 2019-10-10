@@ -5,7 +5,6 @@ import java.util.Queue;
 public class TopoSort {
 
     private Graph G;
-    private int[] indegrees;
 
     private ArrayList<Integer> res;
     private boolean hasCycle = false;
@@ -13,13 +12,13 @@ public class TopoSort {
     public TopoSort(Graph G){
 
         if(!G.isDirected())
-            throw new IllegalArgumentException("DirectedCycleDetection only works in directed graph.");
+            throw new IllegalArgumentException("TopoSort only works in directed graph.");
 
         this.G = G;
 
         res = new ArrayList<>();
 
-        indegrees = new int[G.V()];
+        int[] indegrees = new int[G.V()];
         Queue<Integer> q = new LinkedList<>();
         for(int v = 0; v < G.V(); v ++){
             indegrees[v] = G.indegree(v);
@@ -52,8 +51,8 @@ public class TopoSort {
 
     public static void main(String[] args){
 
-        Graph ug = new Graph("ug.txt", true);
-        TopoSort topoSort = new TopoSort(ug);
+        Graph g = new Graph("ug.txt", true);
+        TopoSort topoSort = new TopoSort(g);
         System.out.println(topoSort.result());
     }
 }
