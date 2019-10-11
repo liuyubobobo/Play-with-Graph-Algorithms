@@ -178,9 +178,14 @@
 | 13-3 有向图环检测和 DAG | [Java](13-Directed-Graph/03-Directed-Cycle-Detection/src/) |
 | 13-4 有向图的度：入度和出度 | [Java](13-Directed-Graph/04-Directed-Graph-Degrees/src/) |
 | 13-5 有向图求解欧拉回路 | [Java](13-Directed-Graph/05-Directed-Euler-Loop/src/) |
-| 13-6 拓扑排序 | [Java](13-Directed-Graph/06-Topological-Sort/src/) |
-| 13-7 另一个拓扑排序的实现和 DFS 后序遍历的逆 | [Java](13-Directed-Graph/07-Another-Topological-Sort-Implementation/src/) |
-| | |
+| 13-6 拓扑排序 | [无] |
+| 13-7 拓扑排序的实现 | [Java](13-Directed-Graph/07-Topological-Sort/src/) |
+| 13-8 另一个拓扑排序算法 | [无] |
+| 13-9 另一个拓扑排序的实现 | [Java](13-Directed-Graph/09-Another-Topological-Sort-Implementation/src/) |
+| 13-10 有向图的强连通分量 | [无] |
+| 13-11 Kosaraju 算法 | [无] |
+| 13-12 Kosaraju 算法的实现 | [Java](13-Directed-Graph/12-SCC/src/) |
+| 13-13 有向图算法小节 | [无] |
 | **第十四章 网络流** | [更新中，敬请期待] |
 | | |
 | **第十五章 匹配算法** | [更新中，敬请期待] |
