@@ -186,8 +186,15 @@
 | 13-11 Kosaraju 算法 | [无] |
 | 13-12 Kosaraju 算法的实现 | [Java](13-Directed-Graph/12-SCC/src/) |
 | 13-13 有向图算法小节 | [无] |
-| **第十四章 网络流** | [更新中，敬请期待] |
-| | |
+| **第十四章 网络流模型和最大流问题** | [Java](14-Network-Flows/) |
+| 14-1 网络流模型和最大流问题 | [无] |
+| 14-2 Ford-Fulkerson 思想 | [无] |
+| 14-3 Edmonds-Karp 算法 | [无] |
+| 14-4 最大流算法的基本架构 | [Java](14-Network-Flows/04-Max-Flow/src/) |
+| 14-5 实现 Edmonds-Karp 算法 | [Java](14-Network-Flows/05-Edmonds-Karp-Algorithm/src/) |
+| 14-6 Edmonds-Karp 算法的测试和更多讨论 | [Java](14-Network-Flows/06-Edmonds-Karp-Algorithm-Completed/src/) |
+| 14-7 最大流问题建模 | [无] |
+| 14-8 本章小结 | [无] |
 | **第十五章 匹配算法** | [更新中，敬请期待] |
 | | |
 | **第十六章 更广阔的图论世界** | [更新中，敬请期待] |
