@@ -101,18 +101,8 @@ public class MaxFlow {
 
     public static void main(String[] args){
 
-        WeightedGraph network = new WeightedGraph("network.txt", true);
-        MaxFlow maxflow = new MaxFlow(network, 0, 3);
+        WeightedGraph network = new WeightedGraph("baseball.txt", true);
+        MaxFlow maxflow = new MaxFlow(network, 0, 10);
         System.out.println(maxflow.result());
-        for(int v = 0; v < network.V(); v ++)
-            for(int w: network.adj(v))
-                System.out.println(String.format("%d-%d: %d / %d", v, w, maxflow.flow(v, w), network.getWeight(v, w)));
-
-        WeightedGraph network2 = new WeightedGraph("network2.txt", true);
-        MaxFlow maxflow2 = new MaxFlow(network2, 0, 5);
-        System.out.println(maxflow2.result());
-        for(int v = 0; v < network2.V(); v ++)
-            for(int w: network2.adj(v))
-                System.out.println(String.format("%d-%d: %d / %d", v, w, maxflow2.flow(v, w), network2.getWeight(v, w)));
     }
 }
