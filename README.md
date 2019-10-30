@@ -195,7 +195,11 @@
 | 14-6 Edmonds-Karp 算法的测试和更多讨论 | [Java](14-Network-Flows/06-Edmonds-Karp-Algorithm-Completed/src/) |
 | 14-7 最大流问题建模 | [Java](14-Network-Flows/07-Baseball-Match/src/) |
 | 14-8 本章小结和更多相关讨论 | [无] |
-| **第十五章 匹配算法** | [更新中，敬请期待] |
+| **第十五章 匹配算法** | [章节 Java 源码](15-Matching-Algorithm/) |
+| 15-1 最大匹配和完全匹配 | [无] |
+| 15-2 使用最大流算法解决匹配问题 | [无] |
+| 15-3 实现使用最大流算法解决匹配问题 | [Java](15-Matching-Algorithm/03-Solving-Matching-Problem-in-Max-Flow/src/) |
+| 15-4 从 Leetcode 上一个 Hard 问题看匹配算法建模 | [Java](15-Matching-Algorithm/04-LCP-4/src/) |
 | | |
 | **第十六章 更广阔的图论世界** | [更新中，敬请期待] |
 | | |
