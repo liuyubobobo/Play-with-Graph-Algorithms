@@ -200,11 +200,12 @@
 | 15-2 使用最大流算法解决匹配问题 | [无] |
 | 15-3 实现使用最大流算法解决匹配问题 | [Java](15-Matching-Algorithm/03-Solving-Matching-Problem-in-Max-Flow/src/) |
 | 15-4 从 Leetcode 上一个 Hard 问题看匹配算法建模 | [Java](15-Matching-Algorithm/04-LCP-4/src/) |
-| | |
-| **第十六章 更广阔的图论世界** | [更新中，敬请期待] |
-| | |
-
-课程正在更新中，敬请期待：）
+| 15-5 匈牙利算法 | [无] |
+| 15-6 匈牙利算法的实现 | [Java](15-Matching-Algorithm/06-Hungarian-BFS/) |
+| 15-7 基于递归实现的匈牙利算法 | [Java](15-Matching-Algorithm/07-Hungarian-DFS/) |
+| 15-8 匹配问题小结 | [无] |
+| **第十六章 更广阔的图论算法世界** | [更新中，敬请期待] |
+| 16-1 大家加油！ | [无] |
 
 ---
 
