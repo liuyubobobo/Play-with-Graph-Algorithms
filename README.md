@@ -48,6 +48,10 @@
 * **LeetCode Explore题解代码仓**：[Play Leetcode Explore](https://github.com/liuyubobobo/Play-Leetcode-Explore) （注：以C++实现为主）
     * [Leetcode Explore](https://leetcode.com/explore/) 是 Leetcode 在2017年底上线的新模块，分门别类地整理了Leetcode上的问题。如果刷Leetcode一时不知从哪里下手，可以从Leetcode Explore为指引开始：）
 
+## 更多推荐
+
+* 感谢学习课程的大佬 [@nicemayi](https://github.com/nicemayi) 同学使用 Python 完成了课程的全部内容。有使用Python学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/nicemayi/play-with-graph-algorithms](https://github.com/nicemayi/play-with-graph-algorithms) 同时，在这个代码仓下，还有大佬写的这个课程的学习笔记，简明扼要，非常有价值！
+
 ## 课程源码目录 
 
 | **第一章 欢迎大家学习《玩儿图论算法》** | [无代码] | 
