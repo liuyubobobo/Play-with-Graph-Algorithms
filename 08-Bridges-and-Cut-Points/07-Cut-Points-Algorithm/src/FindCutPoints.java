@@ -48,7 +48,7 @@ public class FindCutPoints {
                     res.add(v);
             }
             else if(w != parent)
-                low[v] = Math.min(low[v], low[w]);
+                low[v] = Math.min(low[v], ord[w]);
     }
 
     public HashSet<Integer> result(){
@@ -65,8 +65,13 @@ public class FindCutPoints {
         FindCutPoints fc2 = new FindCutPoints(g2);
         System.out.println("Cut Points in g2 : " + fc2.result());
 
+        Graph g3 = new Graph("g3.txt");
+        FindCutPoints fc3 = new FindCutPoints(g3);
+        System.out.println("Cut Points in g3 : " + fc3.result());
+
         Graph tree = new Graph("tree.txt");
-        FindCutPoints fc3 = new FindCutPoints(tree);
-        System.out.println("Cut Points in tree : " + fc3.result());
+        FindCutPoints fc4 = new FindCutPoints(tree);
+        System.out.println("Cut Points in tree : " + fc4.result());
+
     }
 }
