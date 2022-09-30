@@ -1,11 +1,14 @@
 /// Leetcode 1091
+/// 针对这个问答：https://coding.imooc.com/learn/questiondetail/276642.html
+/// 对于 [[0]] 的用例不做特判
+
 import java.util.Queue;
 import java.util.LinkedList;
 
-class Solution {
+class Solution2 {
 
     private int[][] dirs = {{-1, 0}, {-1, 1}, {0, 1}, {1, 1},
-                            {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
+            {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
     private int R, C;
 
     public int shortestPathBinaryMatrix(int[][] grid) {
@@ -16,7 +19,9 @@ class Solution {
         int[][] dis = new int[R][C];
 
         if(grid[0][0] == 1) return -1;
-        if(R == 1 && C == 1) return 1;
+
+        // 不对这种情况做特判
+//        if(R == 1 && C == 1) return 1;
 
         // BFS
         Queue<Integer> queue = new LinkedList<>();
@@ -26,6 +31,10 @@ class Solution {
         while(!queue.isEmpty()){
             int cur = queue.remove();
             int curx = cur / C, cury = cur % C;
+
+            if(curx == R - 1 && cury == C - 1)
+                return dis[curx][cury];
+
             for(int d = 0; d < 8; d ++){
                 int nextx = curx + dirs[d][0];
                 int nexty = cury + dirs[d][1];
@@ -33,9 +42,6 @@ class Solution {
                     queue.add(nextx * C + nexty);
                     visited[nextx][nexty] = true;
                     dis[nextx][nexty] = dis[curx][cury] + 1;
-
-                    if(nextx == R - 1 && nexty == C - 1)
-                        return dis[nextx][nexty];
                 }
             }
         }
